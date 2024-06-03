@@ -151,7 +151,7 @@ body {
         grid-template-columns: 1fr 1fr;
         width: 736px;
         background: var(--white);
-        border-radius: 3.2rem 0 0 3.2rem;
+        border-radius: 3.2rem;
     }
 
     .resultado {
@@ -189,5 +189,19 @@ body {
     .resumo {
         padding: 3.8rem 4rem;
         margin-bottom: 3rem;
+        border-radius: 3.2rem;
+    }
+
+    .resumo div {
+        font-size: 1.8rem;
+    }
+
+    .resumo button {
+        margin-top: 2.4rem;
+    }
+
+    .resumo button:hover {
+        background: var(--resultado-bg);
+        cursor: pointer;
     }
 }
